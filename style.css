@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    transition: 1.5ms;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.yellow{
+    background-color: yellow;
+    height: 150px;
+    border: 5px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+.blue{
+    background-color: blue;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    width: 150px;
+}
+.red{
+    background-color: red;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px;
+}
+.magenta{
+    margin: 20px;
+    background-color: magenta;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 150px;
+}
+.flash{
+    background-color: white;
+}
+#maxScore{
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+}
